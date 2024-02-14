@@ -1,0 +1,118 @@
+/***************************
+  ******  1160 px ******
+****************************/
+@media (max-width: 72.5em) {
+  body {
+    background-image: url(images/bg-top.svg);
+  }
+  .price {
+    font-size: 4.4rem;
+  }
+  .ann {
+    font-size: 4.4rem;
+    transform: translate(-32%, -146%);
+  }
+  .dollar {
+    font-size: 2.4rem;
+  }
+}
+/***************************
+  ******  880 px ******
+****************************/
+@media (max-width: 55em) {
+  body {
+    background-position-x: 50rem;
+  }
+  .price {
+    font-size: 2.4rem;
+  }
+  .ann {
+    font-size: 2.4rem;
+    transform: translate(-32%, -181%);
+  }
+  .dollar {
+    font-size: 1.8rem;
+  }
+
+  .pricing-type {
+    font-size: 1.4rem;
+  }
+  .feature {
+    font-size: 1rem;
+  }
+  .btn {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    padding: 1.2rem 0;
+  }
+}
+/***************************
+  ******  664 px ******
+****************************/
+@media (max-width: 41.5em) {
+  html {
+    font-size: 43.75%;
+  }
+  body {
+    background-position-x: 55rem;
+  }
+}
+/***************************
+  ******  456 px ******
+****************************/
+@media (max-width: 28.5em) {
+  html {
+    font-size: 62.5%;
+  }
+  body {
+    background-position-x: 34rem;
+    background-position-y: -13rem;
+  }
+  .pricing-section {
+    flex-direction: column;
+    gap: 3.2rem;
+  }
+  .pricing-plan {
+    width: 90%;
+  }
+  .our-pricing {
+    font-size: 3.6rem;
+  }
+  .price {
+    font-size: 6.4rem;
+  }
+  .ann {
+    font-size: 5.2rem;
+    transform: translate(-38%, -143%);
+  }
+  .dollar {
+    font-size: 3rem;
+  }
+
+  .pricing-type {
+    font-size: 1.8rem;
+  }
+  .feature {
+    font-size: 1.5rem;
+  }
+  .btn {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    padding: 1.6rem 0;
+  }
+}
+/***************************
+  ******  375 px ******
+****************************/
+@media (max-width: 23.43em) {
+  body {
+    background-position-x: 18rem;
+    background-position-y: -5rem;
+  }
+}
+/*font size system (px)
+  10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+  
+  /* spacing system (px)
+  2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+  */

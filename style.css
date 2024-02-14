@@ -1,0 +1,183 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  background-color: hsl(240, 78%, 98%);
+  background-image: url(images/bg-top.svg), url(images/bg-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right top, left bottom;
+  height: 100vh;
+}
+
+/***************************
+  ******  header  ******
+****************************/
+.header {
+  padding: 4.8rem 0;
+}
+
+.our-pricing {
+  color: hsl(233, 13%, 49%);
+  font-size: 3rem;
+  margin-bottom: 3.2rem;
+}
+.switch-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+}
+.switch-text {
+  color: hsl(234, 14%, 74%);
+  font-size: 1.6rem;
+}
+.pit {
+  padding: 1.6rem 2.8rem;
+  border-radius: 20px;
+  border: none;
+  position: relative;
+  background-color: hsl(237, 63%, 64%);
+}
+/* nice treak */
+/* .pit {
+  pointer-events: none;
+}
+.circle {
+  pointer-events: auto;
+}
+.pit:hover {
+  background: #c4c7f5;
+} */
+
+.circle {
+  width: 2.4rem;
+  height: 2.4rem;
+  background-color: #fff;
+  border: none;
+  border-radius: 100%;
+  cursor: pointer;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(-13.5%, 16.5%);
+
+  transition: all 0.05s;
+}
+/***************************
+  ******  pricing  ******
+****************************/
+.pricing-section {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pricing-plan {
+  width: 34.7rem;
+  padding: 2.6rem 3.2rem 4.8rem 3.2rem;
+  border-radius: 7px;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.03);
+  background-color: #fff;
+  color: hsl(232, 13%, 33%);
+
+  position: relative;
+}
+.pricing-plan:nth-child(2) {
+  background-image: linear-gradient(
+    to bottom,
+    hsl(236, 72%, 79%),
+    hsl(237, 63%, 64%)
+  );
+  padding: 4.5rem 3.2rem 6.5rem 3.2rem;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.03);
+
+  color: #fff;
+}
+
+.pricing-type {
+  font-size: 1.8rem;
+  margin-bottom: 2.4rem;
+}
+.price {
+  font-size: 6.4rem;
+  margin-bottom: 2.4rem;
+  opacity: 100;
+}
+.dollar {
+  font-size: 3.6rem;
+  margin-bottom: 2.4rem;
+}
+.ann {
+  font-size: 6.4rem;
+  opacity: 0;
+  position: absolute;
+  /* transform: translate(-7.1rem, -10.2rem); */
+  transform: translate(-32%, -130%);
+
+  transition: all 0.7s;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 2.2rem;
+}
+.feature:first-child {
+  border-top: 0.5px solid hsl(234, 14%, 74%);
+  padding-top: 1.2rem;
+}
+.feature {
+  font-size: 1.5rem;
+  padding-bottom: 1.2rem;
+  border-bottom: 0.5px solid hsl(234, 14%, 74%);
+}
+.btn {
+  display: block;
+  border: none;
+  padding: 1.6rem 0;
+  margin-top: 1.6rem;
+  border-radius: 7px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn-blue {
+  background-image: linear-gradient(
+    to right,
+    hsl(236, 72%, 79%),
+    hsl(237, 63%, 64%)
+  );
+}
+.btn-blue:hover {
+  background: #fff;
+  box-shadow: inset 0 0 0 1px hsl(237, 63%, 64%);
+  color: hsl(237, 63%, 64%);
+}
+.btn-white {
+  background-color: #fff;
+  color: hsl(237, 63%, 64%);
+}
+.btn-white:hover {
+  background-color: hsl(237, 63%, 64%);
+  color: #fff;
+  box-shadow: inset 0 0 0 1px #fff;
+}
+
+/*font size system (px)
+  10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+  
+  /* spacing system (px)
+  2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+  */
